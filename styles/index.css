@@ -1,0 +1,165 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body a {
+  font-family: "Roboto Mono", monospace;
+}
+
+.navbar {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ff7c00;
+}
+
+.navbar__container--left .navbar__img {
+  width: 180px;
+  height: 60px;
+}
+
+.navbar__container--right .navbar__links--container {
+  display: none;
+}
+
+.menu__mobile {
+  padding: 10px;
+}
+
+.navbar__container--right .menu__mobile .fa-bars {
+  font-size: 35px;
+  color: #fff;
+}
+
+.hero {
+  width: 100%;
+  min-height: 81vh;
+  background-color: rgba(251, 142, 39, 0.1);
+}
+
+.hero__title--container {
+  width: 100%;
+  display: flex;
+}
+
+.hero__title {
+  width: 80%;
+  margin: 20px auto;
+  padding: 0 10px;
+  text-align: center;
+  font-size: 2.9rem;
+  font-weight: 700;
+  letter-spacing: 8px;
+  line-height: 55px;
+  border-bottom: 1px solid #ff7c00;
+  color: #130d07;
+}
+
+.hero__slogan--container {
+  text-align: center;
+}
+
+.hero__slogan--container h2,
+.about h2 {
+  padding: 20px;
+  text-align: center;
+  color: #130d07;
+  font-size: 1.7rem;
+  letter-spacing: 3px;
+}
+
+.hero__slogan--container i {
+  margin: 10px 25px;
+  font-size: 40px;
+  color: #ff7c00;
+}
+
+.hero__sections--container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__sections--container .hero__item,
+.hero__sections--container .hero__item--CTA,
+.about .about__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  min-height: 40px;
+  min-width: 300px;
+  text-decoration: none;
+  font-size: 20px;
+  border: 2px solid #ff7c00;
+}
+
+.hero__sections--container .hero__item--CTA {
+  background-color: #ff7c00;
+  color: #fff;
+}
+
+.hero__sections--container .hero__item {
+  color: #130d07;
+  font-size: 20px;
+}
+
+.hero__sections--container .hero__box {
+  display: flex;
+  justify-content: center;
+  width: 10px;
+  height: 50px;
+  border-left: 1px solid #ff7c00;
+}
+
+.about {
+  height: 100vh;
+  width: 100%;
+}
+
+.about__service--container {
+  margin: 10px auto;
+}
+
+.about__service--container .about__service {
+  width: 80%;
+  min-height: auto;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: rgba(251, 142, 39, 0.1);
+  border: 1px solid #ff7c00;
+}
+
+.about__service i {
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+}
+
+.about__text {
+  font-size: 1.6rem;
+}
+
+.about__service ul {
+  padding: 10px;
+}
+
+.about__service ul li {
+  list-style: circle;
+  font-size: 15px;
+  margin: 15px;
+}
+
+.about__button {
+  width: 80%;
+  margin: 10px;
+  color: #fff;
+  background-color: #ff7c00;
+}
